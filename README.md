@@ -1,4 +1,4 @@
-# Alpha-Music-Player
+# Alpha Music Player
 A simple music player written in Python with PyGame, a library made for creation of games in python. One of my first projects in Python. 
 
 This code snippet will 
@@ -37,5 +37,5 @@ pygame.quit()
 ```
 pip install pygame
 ```
-then edit **music.py** and change the path to your music file. 
+Then edit **music.py** and change the path to your music file.<br/>
 **This snippet handles only one song at a time because of the drawbacks of PyGame**
