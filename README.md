@@ -1,13 +1,13 @@
 # Alpha Music Player
-A simple music player written in Python with PyGame, a library made for creation of games in python. One of my first projects in Python. 
+A simple music player written in Python with PyGame, a library made for creation of games in python. This is one of my first projects in Python. 
 
-This code snippet will 
+To run this code snippet you will 
 
-1.You'll need to install PyGame and import it. 
-2.Initiate the **Mixer of PyGame** and Create a display give it dimensions. 
-3.Fill the display with colours. 
-4.Set fps of update() function. 
-5.It will Run until it hits event.type == pygame.QUIT condition. 
+1.You'll need to **install PyGame** and import it.</br>
+2.Initiate the **Mixer of PyGame** and Create a display give it dimensions.</br>
+3.Fill the display with colours.</br>
+4.Set fps of update() function.</br>
+5.It will run until it hits event.type == pygame.QUIT condition.
 ```
 import pygame
 pygame.init()
@@ -38,4 +38,4 @@ pygame.quit()
 pip install pygame
 ```
 Then edit **music.py** and change the path to your music file.<br/>
-**This snippet handles only one song at a time because of the drawbacks of PyGame**
+**This snippet handles only one song at a time because of the drawbacks of PyGame.**
